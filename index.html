@@ -1,0 +1,169 @@
+<!doctype html>
+<!--[if IE 8]>    <html lang="en-us" class="ie8"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+  <head>
+    <title>Under maintenance - great.gov.uk</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="static/stylesheets/main.css">
+    <script src="static/javascript/third-party.js"></script>
+    <script src="static/javascript/script.js"></script>
+    <!--[if IE 8]><link href="stylesheets/ie8.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  </head>
+  <body class=''>
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    <header id="header" class="static-header-footer">
+        <a id="skip-link" href="#content" class="verbose">Skip to main content</a>
+        <div id="header-bar">
+            <div class="container top-bar">
+                <div class="account-locale-links">
+                    <ul aria-label="Account links" class="navigation account-links">
+                        <ul aria-label="Account links" class="navigation account-links">
+                            <li class="anonymous" id="login-state-register"><a href="https://sso.trade.great.gov.uk" class="register">Register</a></li>
+                            <li class="anonymous" id="login-state-sign-in"><a href="https://sso.trade.great.gov.uk/accounts/login/" class="signin">Sign in</a></li>
+                            <li class="authenticated" id="login-state-profile" style="display: none;"><a href="https://profile.great.gov.uk/about/" class="profile">Profile</a></li>
+                            <li class="authenticated" id="login-state-sign-out" style="display: none;"><a href="https://sso.trade.great.gov.uk/accounts/logout/" class="signout">Sign out</a></li>
+                        </ul>
+                        <script type="text/javascript">
+                            var isAnonymous = document.cookie.indexOf('sso_display_logged_in=true') === -1;
+                            var anonymousStyle = isAnonymous ? 'inline-block' : 'none';
+                            var authenticatedStyle = isAnonymous ? 'none' : 'inline-block';
+                            document.getElementById('login-state-profile').style.display = authenticatedStyle;
+                            document.getElementById('login-state-sign-out').style.display = authenticatedStyle;
+                            document.getElementById('login-state-register').style.display = anonymousStyle;
+                            document.getElementById('login-state-sign-in').style.display = anonymousStyle;
+                        </script>
+                    </ul>
+                    <span class="greeting"></span>
+                </div>
+            </div>
+            <div class="container">
+                <a class="dit-logo" href="https://export.great.gov.uk/">
+                <img src="static/images/DfIT_WHITE_AW.png" alt="Home">
+                </a>
+            </div>
+        </div>
+        <div id="header-menu">
+            <div class="container">
+                <nav id="menu">
+                    <ul class="navigation level-1">
+                        <li><a href="https://export.great.gov.uk/">Home</a>
+                        </li>
+                        <li>
+                            <a id="export-readiness-links" class="list-header">Export readiness</a>
+                            <div>
+                                <ul id="export-readiness-links-list" aria-labelledby="export-readiness-links" class="navigation level-2">
+                                    <li class="items-3"><a href="https://export.great.gov.uk/new/" tabindex="-1">I'm new to exporting</a></li>
+                                    <li class="items-3"><a href="https://export.great.gov.uk/occasional/" tabindex="-1">I export occasionally</a></li>
+                                    <li class="items-3"><a href="https://export.great.gov.uk/regular/" tabindex="-1">I'm a regular exporter</a></li>
+                                </ul>
+                            </div>
+                            <div></div>
+                        </li>
+                        <li>
+                            <a id="guidance-links" class="list-header">Guidance</a>
+                            <div>
+                                <ul id="guidance-links-list" aria-labelledby="guidance-links" class="navigation level-2">
+                                    <li class="items-6"><a href="https://export.great.gov.uk/market-research/" tabindex="-1">Market research</a></li>
+                                    <li class="items-6"><a href="https://export.great.gov.uk/customer-insight/" tabindex="-1">Customer insight</a></li>
+                                    <li class="items-6"><a href="https://export.great.gov.uk/finance/" tabindex="-1">Finance</a></li>
+                                    <li class="items-6"><a href="https://export.great.gov.uk/business-planning/" tabindex="-1">Business planning</a></li>
+                                    <li class="items-6"><a href="https://export.great.gov.uk/getting-paid/" tabindex="-1">Getting paid</a></li>
+                                    <li class="items-6"><a href="https://export.great.gov.uk/operations-and-compliance/" tabindex="-1">Operations and compliance</a></li>
+                                </ul>
+                            </div>
+                            <div></div>
+                        </li>
+                        <li>
+                            <a id="services-links" class="list-header">Services</a>
+                            <div ">
+                                <ul id="services-links-list" aria-labelledby="services-links" class="navigation level-2">
+                                    <li class="items-5"><a href="https://find-a-buyer.export.great.gov.uk/" tabindex="-1">Create an export profile</a><span class="description">Get promoted internationally with a great.gov.uk trade profile</span></li>
+                                    <li class="items-5"><a href="https://selling-online-overseas.export.great.gov.uk/" tabindex="-1">Sell online overseas</a><span class="description">Find the right marketplace for your business and access special offers for sellers</span></li>
+                                    <li class="items-5"><a href="https://great.gov.uk/export-opportunities/" tabindex="-1">Find export opportunities</a><span class="description">Find and apply for overseas opportunities</span></li>
+                                    <li class="items-5"><a href="https://export.great.gov.uk/get-finance/" tabindex="-1">Get finance</a><span class="description">Get the finance you need to compete and grow</span></li>
+                                    <li class="items-5"><a href="https://events.trade.gov.uk/" tabindex="-1">Attend events</a><span class="description">Sign up for networking events and trade missions</span></li>
+                                </ul>
+                            </div>
+                            <div></div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+      <div class="main" id="content">
+        <section>
+          <div class="outer-container soft--top push--top min-height">
+            <div class="soft--bottom push--bottom">
+              <div class="col-12 soft--bottom">
+                <h1 class="heading-xlarge flush--top push--bottom">Great.gov.uk is under maintenance</h1>
+                <ul class="list-regular soft-half--ends">
+                  <li class="flush--top">We’re updating great.gov.uk. It will be available again soon.</li>
+               
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer id="footer" class="static-header-footer">
+        <nav class="container">
+            <div class="link-group"><img id="footer-dit-logo" src="static/images/DfIT_WHITE_AW.png" height="70px" alt="Department for International Trade"><img id="footer-eig-logo" src="static/images/eig-logo-stacked.svg" height="82px" alt="Exporting is Great">
+            </div>
+            <div class="link-group">
+                <p id="footer-export-readiness-links" class="list-heading">Export readiness</p>
+                <ul aria-labelledby="footer-export-readiness-links" class="navigation">
+                    <li><a href="https://export.great.gov.uk/new/">I'm new to exporting</a></li>
+                    <li><a href="https://export.great.gov.uk/occasional/">I export occasionally</a></li>
+                    <li><a href="https://export.great.gov.uk/regular/">I'm a regular exporter</a></li>
+                </ul>
+            </div>
+            <div class="link-group">
+                <p id="footer-guidance-links" class="list-heading">Guidance</p>
+                <ul aria-labelledby="footer-guidance-links" class="navigation">
+                    <li><a href="https://export.great.gov.uk/market-research/">Market research</a></li>
+                    <li><a href="https://export.great.gov.uk/customer-insight/">Customer insight</a></li>
+                    <li><a href="https://export.great.gov.uk/finance/">Finance</a></li>
+                    <li><a href="https://export.great.gov.uk/business-planning/">Business planning</a></li>
+                    <li><a href="https://export.great.gov.uk/getting-paid/">Getting paid</a></li>
+                    <li><a href="https://export.great.gov.uk/operations-and-compliance/">Operations and compliance</a></li>
+                </ul>
+            </div>
+            <div class="link-group">
+                <p id="footer-services-links" class="list-heading">Services</p>
+                <ul aria-labelledby="footer-services-links" class="navigation">
+                    <li><a href="https://find-a-buyer.export.great.gov.uk/">Create an export profile</a></li>
+                    <li><a href="https://selling-online-overseas.export.great.gov.uk/">Sell online overseas</a></li>
+                    <li><a href="https://great.gov.uk/export-opportunities/">Find export opportunities</a></li>
+                    <li><a href="https://export.great.gov.uk/get-finance/">Get finance</a></li>
+                    <li><a href="https://events.trade.gov.uk/">Attend events</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="site-links container">
+            <ul class="navigation">
+                <li><a href="https://export.great.gov.uk/about/" class="">About</a></li>
+                <li><a href="https://contact-us.export.great.gov.uk/directory" class="">Contact us</a></li>
+                <li><a href="https://export.great.gov.uk/privacy-and-cookies/" class="">Privacy and cookies</a></li>
+                <li><a href="https://www.export.great.gov.uk/terms-and-conditions/" class="">Terms and conditions</a></li>
+                <li><a href="https://www.gov.uk/government/organisations/department-for-international-trade" class="">Department for International Trade on GOV.UK</a></li>
+            </ul>
+        </div>
+        <div class="global-footer">
+            <p class="container"><span>© Crown copyright 2017. All rights reserved.</span></p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js" integrity="sha256-Ls0pXSlb7AYs7evhd+VLnWsZ/AqEHcXBeMZUycz/CcA=" crossorigin="anonymous"></script>
+    <script src="static/javascript/toggle.js"></script>
+    <script src="static/javascript/sso.js"></script>
+    <script src="static/javascript/menu.js"></script>
+    <script src="static/javascript/ie8.js"></script>
+  </body>
+</html>
